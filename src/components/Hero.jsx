@@ -63,13 +63,13 @@ const Hero = () => {
           className="relative flex justify-center md:justify-end"
         >
           {/* Removed rounded-full, border, and glass classes so the body blends into the background */}
-          <div className="relative z-10 w-[85%] max-w-[320px] h-[24rem] sm:h-[28rem] md:w-[450px] md:h-[500px] flex items-end">
-            <img 
-              src="/image/profile-transparent.png" 
-              alt="Md Sohan Bhuyan" 
-              className="w-full h-full object-contain object-bottom drop-shadow-[0_0_30px_rgba(255,255,255,0.1)] hover:scale-105 hover:drop-shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-700"
-            />
-          </div>
+          <div className="relative z-10 w-[100%] max-w-[1000px] h-[26rem] sm:h-[32rem] md:w-[520px] md:h-[560px] flex items-end">
+  <img 
+    src="/image/profile-transparent.png" 
+    alt="Md Sohan Bhuyan" 
+    className="w-[500px] md:w-[520px] lg:w-[650px] object-contain object-bottom  hover:scale-110 transition-all duration-700"
+  />
+</div>
         </motion.div>
       </div>
     </section>
