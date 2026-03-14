@@ -57,7 +57,7 @@ const Contact = () => {
           >
             <h3 className="text-2xl font-bold mb-8">Send Me a Message</h3>
             
-            <form action="https://formspree.io/f/movdvrdo" method="POST" className="space-y-6">
+            <form action="https://formspree.io/f/xqeyqogk" method="POST" className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <input type="text" name="name" placeholder="Full Name" required className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white placeholder:text-white/30 focus:outline-none focus:border-white/40 focus:bg-white/10 transition-colors" />
